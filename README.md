@@ -1,41 +1,20 @@
-# Website
+# Get Started
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Hi! 
+This documentation is still under development, so we'll just go over a few things to get you started. I have included some of the equations, but the derivations are still on the way, and all the rest of it.
 
-### Installation
+## Basic Geometries (2D)
 
-```
-$ yarn
-```
+![Basic 2d](./docs/tutorials/img/superellipse.png)
 
-### Local Development
+## Some Interesting Configurations (2D)
+![Notable 2d](./docs/tutorials/img/superellipse2.png)
 
-```
-$ yarn start
-```
+## Basic Geometries (3D)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+![Basic 3d](./docs/tutorials/img/superellipsoid1.png)
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Some Interesting Configurations (3D)
+![Notable 3d](./docs/tutorials/img/superellipsoid2.png)
+![Notable 3d 1](./docs/tutorials/img/superellipsoid3.png)
+ 
