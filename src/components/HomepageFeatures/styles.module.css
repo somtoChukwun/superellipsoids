@@ -1,0 +1,73 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.sectionBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .sectionBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.equations.sectionBanner{
+  background-color: #3b3939;
+  background-image: url('../../../docs/img/equations3.png');
+  background-size: cover; /* This makes the image cover the entire background */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; 
+}
+.backdrop{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  background-color: var(--tinted-background);
+}
+
+.withbackdrop{
+  position: relative;
+  z-index:1;
+}
+.plaincards:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 20px var(--docusaurus-highlighted-code-line-bg);
+  transition: all 0.2s linear;
+}
+.plaincards{
+  transition: all 0.2s linear;
+}
+
+.cardlinks{
+  text-decoration: none;
+  color: var(--ifm-color-primary-contrast-foreground);
+  
+}
+.cardlinks:hover{
+  text-decoration: none;
+  color: var(--ifm-color-primary-contrast-foreground);
+}
+
+
+.featuredimg{
+  border-radius: 30px;
+}
